@@ -1,0 +1,7 @@
+#!/bin/sh
+
+######### precommit script here
+
+echo "Pre commit executed"
+
+exit
