@@ -71,3 +71,12 @@ there are 3 server side hooks:
 * pre-receive
 * update
 * post-receive
+
+
+## Change default git hooks
+
+By default git will look for hooks in the directory $GIT_DIR/hooks, if use git version 2.9 or greater, we can settint the core.hooksPath configuration variable to manage hooks directory
+
+```
+git config core.hooksPath .githooks
+```

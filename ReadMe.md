@@ -24,3 +24,6 @@
       git pull = fetch + merge: Fetches the changes from the remote repository and merges them.The diagram denotes git pull origin master/feature, indicating that the pull is targeting the master or feature branch.
 
 8. <b>Pull Request (PR): </b> Once changes are pushed to a feature branch on the remote repository, one can raise a PR. After review, it gets merged into the master branch.
+
+## Reference
+[https://www.atlassian.com/git](https://www.atlassian.com/git)
